@@ -6,5 +6,5 @@ jobs:
         run-on: ubuntu-latest
         steps:
             -name: print message
-             run: echo"hello guys"
+             run: echo "hello guys"
            
