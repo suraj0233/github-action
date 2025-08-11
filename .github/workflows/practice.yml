@@ -3,7 +3,8 @@ on: push
 
 jobs:
     first:
-        run on: ubuntu-latest
+        run-on: ubuntu-latest
         steps:
             -name: print message
-             run: echo"hello"
+             run: echo"hello guys"
+           
