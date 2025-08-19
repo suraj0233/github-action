@@ -17,6 +17,6 @@ jobs:
             - name: print message
               run: echo "job run successfully"
 
-            - name: show cal
-              run: cal
+            - name: show date
+              run: date
             
