@@ -1,8 +1,8 @@
 name: demo
-on: push
+on: workflow_dispatch
 
 jobs:
-    first:
+    myjob:
         runs-on: ubuntu-latest
         steps:
             - name: print message
@@ -16,4 +16,7 @@ jobs:
             
             - name: print message
               run: echo "job run successfully"
+
+            - name: show cal
+              run: cal
             
